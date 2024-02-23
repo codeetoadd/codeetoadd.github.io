@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Add your CSS styles here -->
+  <style>
+    body {
+      background-image: url('https://e0.pxfuel.com/wallpapers/174/0/desktop-wallpaper-abstract-color-waves-neutral-pastel-mini-art-print-by-colour-poems-without-stand-3-x-4-in-2020-cute-patterns-color-wave-iphone-background-aesthetic-colors.jpg');
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      display: block;
+    }
+    img {
+      margin-top: 150px;
+      width: 450px;
+      height: 350px;
+    }
+    h1 {
+      color: white;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+    .typing {
+      animation: typing 4s steps(40, end) infinite;
+    }
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://gifdb.com/images/high/cute-anime-hinata-hoshino-crying-emcttj1h2lr4qsqo.gif" alt="Hello, World!">
+  </div>
+  <div class="container">
+    <h1><span class="typing">We heard you wanted to unfriend Swati-sama..</span></h1>
+  </div>
+  <!-- Add your JavaScript scripts here -->
+  <script>
+    const typingText = document.querySelector('.typing');
+    let index = 0;
+    const text = typingText.textContent;
+    typingText.textContent = '';
+    const typingInterval = setInterval(() => {
+      if (index < text.length) {
+        typingText.textContent += text[index];
+      } else {
+        clearInterval(typingInterval);
+      }
+      index++;
+    }, 100);
+    window.setTimeout(() => {
+      window.location.href = 'index3.html'
+    }, 6000);
+  </script>
+</body>
+</html>

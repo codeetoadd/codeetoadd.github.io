@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- Add your CSS styles here -->
+  <style>
+    body {
+      background-image: url('https://t4.ftcdn.net/jpg/04/50/66/93/360_F_450669392_Tmz5o2a88XJAIPN7B6ZUcLvpVoDZggWW.jpg');
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-size: cover;
+      height: 100vh;
+      margin: 0;
+    }
+    .container {
+      display: block;
+    }
+    img {
+      margin-top: 150px;
+      width: 450px;
+      height: 350px;
+    }
+    h1 {
+      color: white;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+    .typing {
+      animation: typing 4s steps(40, end) infinite;
+    }
+    @keyframes typing {
+      from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://media.tenor.com/yCR6JOoxS6wAAAAM/anime-angry.gif" alt="Hello, World!">
+  </div>
+  <div class="container">
+    <h1><span class="typing">So.. here you go, you idiot.</span></h1>
+  </div>
+  <!-- Add your JavaScript scripts here -->
+  <script>
+    const typingText = document.querySelector('.typing');
+    let index = 0;
+    const text = typingText.textContent;
+    typingText.textContent = '';
+    const typingInterval = setInterval(() => {
+      if (index < text.length) {
+        typingText.textContent += text[index];
+      } else {
+        clearInterval(typingInterval);
+      }
+      index++;
+    }, 100);
+    window.setTimeout(() => {
+      window.location.href = 'https://www.wikihow.com/Get-Rid-of-Annoying-People-Without-Hurting-Their-Feelings'
+    }, 4000);
+  </script>
+</body>
+</html>
