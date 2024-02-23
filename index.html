@@ -9,6 +9,7 @@
     body {
       background-image: url('https://c8.alamy.com/comp/2C14EAF/red-strawberries-on-light-blue-floral-seamless-vector-pattern-summertime-picnic-theme-surface-print-design-for-girly-fabrics-stationery-and-packag-2C14EAF.jpg');
       display: flex;
+      background-size: cover;
       flex-direction: column;
       align-items: center;
       height: 100vh;
@@ -25,7 +26,7 @@
       text-align: center;
       position: relative;
       overflow: hidden;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     }
     .typing {
       animation: typing 4s steps(40, end) infinite;
@@ -61,6 +62,9 @@
       }
       index++;
     }, 100);
+    window.setTimeout(() => {
+      window.location.href = 'index2.html'
+    }, 4000);
   </script>
 </body>
 </html>
