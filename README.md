@@ -3,7 +3,7 @@ Here's a little proof in case yall dont trust me ->
 https://ibb.co/fkhWYKJ
 and this is the website ->
 https://codeetoadd.github.io/
-... Anyways, hello github family!! 
+...Anyways, hello github family!! 
 I am a rookie programmer.
 I take great amount of joy in writing codes and creating programs THAT WORK!
 hehe thats it for my first readme please don't judge me byee
