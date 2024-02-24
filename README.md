@@ -2,7 +2,7 @@ Nothing too cool, I just made my bestfriend a website about how to unfriend me b
 Here's a little proof in case yall dont trust me ->
 https://ibb.co/fkhWYKJ
 and this is the website ->
-https://codeetoadd.github.io/
+https://codeetoadd.github.io/unfriendswati
 ...Anyways, hello github family!! 
 I am a rookie programmer.
 I take great amount of joy in writing codes and creating programs THAT WORK!
